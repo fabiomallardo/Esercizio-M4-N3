@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galleria di Immagini Pexels</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Galleria di Immagini</h1>
+    <div class="row">
+      <div class="col-12">
+        <input
+          type="text"
+          id="searchQuery"
+          class="form-control mb-3"
+          placeholder="Cerca immagini (es. mare, montagna, natura...)"
+        >
+        <button id="searchBtn" class="btn btn-primary w-100">Cerca</button>
+      </div>
+    </div>
+    <div id="gallery" class="row mt-4"></div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
